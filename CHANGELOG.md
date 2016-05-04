@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### BACKPORT
+Backport of 20475dbd4907113ab0cf87ecb2cd63d1470356e2 for CVE
+fix into 1.3.2
+
 ## 1.3.2 - 2021-02-08
 ### Fixed
 * Fix Ruby 2.7 deprecations(@aubinlrx [#2462](https://github.com/carrierwaveuploader/carrierwave/pull/2462))
