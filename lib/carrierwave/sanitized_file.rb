@@ -265,10 +265,7 @@ module CarrierWave
     # [String] the content type of the file
     #
     def content_type
-      @content_type ||=
-        existing_content_type ||
-        mime_magic_content_type ||
-        mime_types_content_type
+      mime_magic_content_type
     end
 
     ##
